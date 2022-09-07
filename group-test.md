@@ -137,7 +137,7 @@ This is probably identical issue to our [first side test](https://github.com/mrk
 
 #### [person on solidcommunity.net](https://grouptest2.solidcommunity.net/profile/card#me) - [community on solidweb.me](https://solidweb.me/grouptest1/group-test/private-group.ttl#group)
 
-Result: Request fails with `403 Forbidden`.
+Result: Request **fails** with `403 Forbidden`.
 
 #### [person on solidweb.me](https://solidweb.me/grouptest2/profile/card#me) - [community on solidweb.me](https://solidweb.me/grouptest1/group-test/private-group.ttl#group)
 

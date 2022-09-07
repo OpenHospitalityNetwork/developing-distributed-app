@@ -1,4 +1,4 @@
-# Show my profile
+# Show user's profile
 
 _we look what's at webId * triples, triples, triples * fetch my data with inrupt library * fetch my photo * it's annoying, isn't it?_
 
@@ -10,7 +10,7 @@ When we initialized login, we received the signed-in user's (yours) webId. It's 
 
 So we'll do just that. After app gets initialized (with `handleIncomingRedirect`), we take the webId and we look at that url (dereference it, do we call it that?). But we don't do it in simple way. We use another inrupt's library, `@inrupt/solid-client`.
 
-This would be a prime time to talk a little bit about Linked Data, or RDF - Resource Description Framework. If you know this, skip the next section, and jump directly [here].
+This would be a prime time to talk a little bit about Linked Data, or RDF - Resource Description Framework. If you know this, skip the next section, and jump directly [here](#get-the-data).
 
 ## Triples, Triples, Triples
 
@@ -85,4 +85,4 @@ In SPARQL, the above picture would be written like:
 write a SPARQL query, with optional stuff...
 ```
 
-[Next: Offer a Home](offer.md)
+[Next: Offer to stay at your home](offer.md)
